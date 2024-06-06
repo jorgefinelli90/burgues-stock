@@ -1,0 +1,55 @@
+@import url("https://use.typekit.net/nuy8xqv.css");
+
+.nav-b2b{
+    width: 100%;
+    background-color: rgb(233, 233, 233);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+.logo{
+    font-family: "proxima-nova", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 40px;
+}
+
+.section-nav-b2b{
+    display: inline-flex;
+}
+
+.section-nav-b2b li{
+    list-style: none;
+    width: 70px;
+}
+
+.section-nav-b2b li a{
+    text-decoration: none;
+    color: #222222;
+    font-family: "proxima-nova", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    transition: font-weight 0.3s ease; 
+}
+
+.section-nav-b2b li a:hover{
+    color: #1d1c1c;
+    font-weight: 600;
+}
+
+.login-b2b a{
+    border: 1px solid #222222;
+    padding: 7px 15px;
+    border-radius: 5px;
+}
+
+.login-b2b{
+    margin-right: 30px;
+}
